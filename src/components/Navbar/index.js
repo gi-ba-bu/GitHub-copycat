@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import './index.css';
 
-const NavBar = () => {
+const Navbar = () => {
     return (
             <nav>
                 <NavLink exact to="/" activeClassName="active">Home</NavLink>
@@ -13,4 +13,4 @@ const NavBar = () => {
     );
 }
 
-export default NavBar;  
+export default Navbar;  

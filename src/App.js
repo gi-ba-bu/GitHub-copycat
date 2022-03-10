@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
-import { NavBar} from './components';
+import { Navbar} from './components';
 import { About, Home, Search  } from './pages';
 import { Footer } from './layout';
 
@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <>
-     <NavBar />
+     <Navbar />
       <Switch>
         <Route exact path="/"><Home /></Route>
         <Route path="/about"><About /></Route>
